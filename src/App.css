@@ -1,4 +1,23 @@
-html {
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    background-color: #E5E5E5;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+.Nav {
+    background: #F55A5A;
+    font-family: Inter;
+    color: #FFF;
+    font-weight: 500;
+    font-size: 14px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    letter-spacing: -0.075em;
 }
