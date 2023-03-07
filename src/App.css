@@ -6,11 +6,16 @@
 
 body {
     background-color: #F5F5F5;
+    font-family: 'Inter';
+}
+
+a {
+   text-decoration: underline;
+   color: #918E9B; 
 }
 
 .Nav {
     background: #F55A5A;
-    font-family: Inter;
     color: #FFF;
     font-weight: 500;
     font-size: 14px;
@@ -20,4 +25,60 @@ body {
     align-items: center;
     gap: 7px;
     letter-spacing: -0.075em;
+    margin-bottom: 100px;
+}
+
+.Card {
+    display: flex;
+    margin-left: 40px;
+    gap: 20px;
+    margin-bottom: 36px;
+}
+
+.card--img {
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+}
+
+.location {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    height: 10px;
+}
+
+.location--text {
+    font-weight: 400px;
+    font-size: 10px;
+    color: #2B283A;
+    letter-spacing: 0.17em;
+}
+
+.location--maps-link {
+    color: #918E9B;
+    font-weight: 400;
+    font-size: 10px;
+}
+
+.card--title {
+    font-size: 25px;
+    color: #2B283A;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.card--dates {
+    font-weight: 700;
+    font-size: 10px;
+    color: #2B283A;
+    margin-bottom: 10px;
+}
+
+.card--description {
+    color: #2B283A;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 150%;
+    width: 326px;
 }

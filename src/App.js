@@ -7,7 +7,9 @@ function App() {
   return (
     <div className='App'>
       <Nav />
-      <Card />
+      {data.map((item, i) => (
+        <Card key={i} {...item}/>
+      ))}
     </div>
   );
 }
